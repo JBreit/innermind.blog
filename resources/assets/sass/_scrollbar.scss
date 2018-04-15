@@ -1,0 +1,56 @@
+/**
+ * Scrollbar Theme Styles
+ */
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+
+::-webkit-scrollbar-button {
+  width: 1px;
+  height: 1px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $site-theme-color;
+  border: 0px none #6b6b6b;
+  border-radius: 0px;
+
+  &:hover {
+    background: #fff;
+  }
+
+  &:active {
+    background: #252525;
+  }
+}
+
+::-webkit-scrollbar-track {
+  background: #919191;
+  border: 0px none #fff;
+  border-radius: 0px;
+
+  &:hover {
+    background: #666;
+  }
+
+  &:active {
+    background: #333;
+  }
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+@media (min-width: 320px) and (max-width: 479px) {}
+
+@media (min-width: 480px) and (max-width: 575px) {}
+
+@media (min-width: 576px) and (max-width: 767px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 1200px) {}
